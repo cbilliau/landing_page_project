@@ -1,11 +1,14 @@
 /* Highlighting elements */
+
 body {
 	background-color: lightgray;
 }
 div {
 	border: 1px solid chocolate;
 }
+
 /* Navigation Section */
+
 .top-navigation	{
 	background-color: #fff;
 }
@@ -17,4 +20,7 @@ div {
 .logo {
 	margin-left: 14px;
 	height: 70px;
+}
+.top-navigation .links {
+	float: right;
 }
