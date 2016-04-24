@@ -1,0 +1,7 @@
+/* Highlighting elements */
+body {
+	background-color: lightgray;
+}
+div {
+	border: 1px solid chocolate;
+}
