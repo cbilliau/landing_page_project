@@ -5,3 +5,10 @@ body {
 div {
 	border: 1px solid chocolate;
 }
+.logo {
+	width: 3em;
+	height: 3em;
+}
+ul {
+	list-style-type: none; 
+}
