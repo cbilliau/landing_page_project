@@ -5,10 +5,12 @@ body {
 div {
 	border: 1px solid chocolate;
 }
-.logo {
-	width: 3em;
-	height: 3em;
+/* Navigation Section */
+.top-navigation	{
+	background-color: #fff;
 }
-ul {
-	list-style-type: none; 
+.top-navigation >.content	{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
