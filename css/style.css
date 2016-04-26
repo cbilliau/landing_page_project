@@ -33,3 +33,7 @@ html {
 .top-navigation .links {
 	float: right;
 }
+/* ? RICH - Would I use a selector (li, as I do here) or assign li a class in the index.html??? */
+.top-navigation .links li {
+	display: inline-block;
+}
