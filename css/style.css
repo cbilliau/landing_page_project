@@ -11,8 +11,9 @@ div {
 
 html {
 	box-sizing: border-box;
+	-webkit-font-smooting: antialiased;
 }
-8, *:before, *:after {
+*, *:before, *:after {
 	box-sizing: inherit;
 }
 
@@ -25,9 +26,10 @@ html {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
+
 .logo {
-	margin-left: 14px;
 	height: 70px;
 }
 .top-navigation .links {
@@ -41,4 +43,8 @@ html {
 /* ? RICH - Would I use a selector (li, as I do here) or assign li a class in the index.html??? */
 .top-navigation .links li {
 	display: inline-block;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
