@@ -1,34 +1,28 @@
 /* Highlighting elements */
-
 body {
 	background-color: lightgray;
 }
 div {
 	border: 1px solid chocolate;
 }
-
 /*	Box Sizing */
-
 html {
 	box-sizing: border-box;
-	-webkit-font-smooting: antialiased;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
 /* Navigation Section */
-
 .top-navigation	{
 	background-color: #fff;
 }
+/* Lesson plan wanted me to do something here but they were vague and indiscript */
 .top-navigation > .content	{
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
 }
-
 .logo {
 	height: 70px;
 }
@@ -39,13 +33,14 @@ html {
 	color: #838994;
 	letter-spacing: 0.03em;
 	margin-top: 25px;
+	-webkit-font-smooting: antialiased;
 }
-/* ? RICH - Would I use a selector (li, as I do here) or assign li a class in the index.html??? */
+/* ? RICH - What is conventionaly correct? 
+	 Use a selector (li, as I do here) or assign li a class in the index.html??? */
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 1.563rem;
+	margin-left: 25px;
 }
-
 /* :hover */
 .top-navigation .links li:hover {
 	color: #333333;
@@ -54,4 +49,15 @@ html {
 .top-navigation .links > .active {
 	color: #4c5058;
 	font-weight: 500;
+}
+/* Introduction */
+.introduction	{
+	/* Their example link provides no examples resembling what the css actually is */
+	/* Unable to find the 'height of under 600px' they refer to in cropping image */
+	background-image: url(../images/first-background.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
 }
