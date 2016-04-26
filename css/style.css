@@ -1,16 +1,20 @@
 /* Highlighting elements */
 body {
 	background-color: lightgray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smooting: antialiased;
 }
 div {
 	border: 1px solid chocolate;
 }
-/*	Box Sizing */
-html {
-	box-sizing: border-box;
-}
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+.content {
+	margin: 0 auto;
+	width: 970px;
+	padding: 0px 15px;
+	box-sizing: border-box;
 }
 /* Navigation Section */
 .top-navigation	{
@@ -18,22 +22,19 @@ html {
 }
 /* Lesson plan wanted me to do something here but they were vague and indiscript */
 .top-navigation > .content	{
-	width: 970px;
 	height: 70px;
-	margin: 0 auto;
-	padding: 0px 15px;
+
 }
 .logo {
 	height: 70px;
 }
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
 	margin-top: 25px;
-	-webkit-font-smooting: antialiased;
+
 }
 /* ? RICH - What is conventionaly correct? 
 	 Use a selector (li, as I do here) or assign li a class in the index.html??? */
@@ -52,12 +53,17 @@ html {
 }
 /* Introduction */
 .introduction	{
-	/* Their example link provides no examples resembling what the css actually is */
-	/* Unable to find the 'height of under 600px' they refer to in cropping image */
+	/* Their example link provides no examples resembling what the css actually is in real karma page */
+	/* Argh! Trying to move image up. Unable to find the 'height of under 600px' they refer to in cropping image */
 	background-image: url(../images/first-background.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
 	overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+	color: #ffffff;
+	font-weight: 300;
 }
