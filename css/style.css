@@ -43,12 +43,13 @@ html {
 /* ? RICH - Would I use a selector (li, as I do here) or assign li a class in the index.html??? */
 .top-navigation .links li {
 	display: inline-block;
+	margin-left: 1.563rem;
 }
 
-/* :hover & transitions */
+/* :hover */
 .top-navigation .links li:hover {
-	transition: 0.2s ease;
-	color: black;
+	color: #333333;
+	cursor: pointer;
 }
 .top-navigation .links > .active {
 	color: #4c5058;
