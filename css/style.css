@@ -19,6 +19,8 @@ div {
 /* Navigation Section */
 .top-navigation	{
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
 }
 /* Lesson plan wanted me to do something here but they were vague and indiscript */
 .top-navigation > .content	{
