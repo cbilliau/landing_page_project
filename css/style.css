@@ -7,6 +7,15 @@ div {
 	border: 1px solid chocolate;
 }
 
+/*	Box Sizing */
+
+html {
+	box-sizing: border-box;
+}
+8, *:before, *:after {
+	box-sizing: inherit;
+}
+
 /* Navigation Section */
 
 .top-navigation	{
