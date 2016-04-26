@@ -32,6 +32,11 @@ html {
 }
 .top-navigation .links {
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 25px;
 }
 /* ? RICH - Would I use a selector (li, as I do here) or assign li a class in the index.html??? */
 .top-navigation .links li {
