@@ -107,3 +107,12 @@ button:hover {
 	border-color: #d9400e;
 	cursor: pointer;
 }
+.cases	{
+	color: black;
+	text-align: center;
+	font-weight: 300;
+	font-size: 25px;
+}
+.cases .content	{
+	margin-top: 200px;
+}
