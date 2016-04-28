@@ -116,3 +116,12 @@ button:hover {
 .cases .content	{
 	margin-top: 200px;
 }
+.cases .devices	{
+	/* lesson said to make wdth 33.3% but then they strech to two rows */
+	width: 25%;
+	display: inline-block;
+	/*	styles to assist with debugging */
+	border: 1px
+	box-sizing: border-box;
+	height: 5em;
+}
