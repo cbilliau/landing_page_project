@@ -28,6 +28,7 @@ html {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 /* Lesson plan wanted me to do something here but they were vague and indiscript */
 .top-navigation > .content	{
@@ -63,6 +64,7 @@ html {
 /* Introduction */
 .introduction	{
 	/* Trying to move image up. Unable to find the 'height of under 600px' they refer to in cropping image */
+	/* Rsolved w/someone on slack, forgot what it was, comment all fixes next time */
 	background-image: url(../images/first-background.jpg);
 	background-position: center bottom;
     background-repeat: no-repeat;
@@ -118,7 +120,7 @@ button:hover {
 }
 .cases .devices	{
 	/* lesson said to make wdth 33.3% but then they strech to two rows */
-	width: 25%;
+	width: 33.33%;
 	display: inline-block;
 	/* Couldn't fig out 'FLEX' fix so used neg margin */
 	margin-right: -7px;
