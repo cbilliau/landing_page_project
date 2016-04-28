@@ -118,10 +118,12 @@ button:hover {
 }
 .cases .devices	{
 	/* lesson said to make wdth 33.3% but then they strech to two rows */
-	width: 25%;
+	width: 20%;
 	display: inline-block;
+	/* Couldn't fig out 'FLEX' fix so used neg margin
+	margin-right: -7px;
 	/*	styles to assist with debugging */
 	border: 1px
 	box-sizing: border-box;
-	height: 5em;
+	height: 4em;
 }
